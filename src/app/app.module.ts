@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,13 +11,16 @@ import { CategoryComponent } from './components/category/category.component';
 @NgModule({
   declarations: [
     AppComponent,
+    //kendi yazdıklarımız buraya
     ProductComponent,
     NaviComponent,
     CategoryComponent
   ],
   imports: [
+    //dışardan aldıklarımız buraya
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
