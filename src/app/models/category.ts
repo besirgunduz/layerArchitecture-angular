@@ -1,6 +1,6 @@
 import { ResponseModel } from "./responseModel";
 
-export interface Category extends ResponseModel{
+export interface Category {
     categoryId: number;
     categoryName: string;
 }

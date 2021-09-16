@@ -1,3 +1,5 @@
-export interface ListResponseModel<T>{
-    data:T[];
+import { ResponseModel } from "./responseModel";
+
+export interface ListResponseModel<T> extends ResponseModel {
+    data: T[];
 }
