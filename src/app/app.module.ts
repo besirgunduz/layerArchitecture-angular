@@ -12,6 +12,7 @@ import { NaviComponent } from './components/navi/navi.component';
 import { CategoryComponent } from './components/category/category.component';
 import { VatAddedPipe } from './pipes/vat-added.pipe';
 import { FilterPipePipe } from './pipes/filter-pipe.pipe';
+import { CartSummaryComponent } from './components/cart-summary/cart-summary.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FilterPipePipe } from './pipes/filter-pipe.pipe';
     CategoryComponent,
     VatAddedPipe,
     FilterPipePipe,
+    CartSummaryComponent,
   ],
   imports: [
     //dışardan aldıklarımız buraya
